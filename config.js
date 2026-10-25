@@ -1,9 +1,5 @@
-// Despachos PATRIA · conexión con Supabase
-// Copia estos dos valores de: Supabase → Project Settings → API
-// (La llave "anon" es pública por diseño: la seguridad la ponen las reglas RLS de la base de datos.)
 window.PATRIA_CONFIG = {
-  SUPABASE_URL: "https://TU-PROYECTO.supabase.co",
-  SUPABASE_ANON_KEY: "PEGA-AQUI-LA-LLAVE-ANON",
-  // true cuando hayas configurado la función leer-pedido con tu llave de Anthropic
+  SUPABASE_URL: "https://dlblsnypjuixzxtmohfe.supabase.co",
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRsYmxzbnlwanVpeHp4dG1vaGZlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI5NTM2NjMsImV4cCI6MjEwODUyOTY2M30.LkR-0ZRS8EIeNtSVMKJCJo7JL_pGUmIsKBbsw1rAbuE",
   LECTURA_IA: false
 };
